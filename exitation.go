@@ -1,4 +1,5 @@
-package neuro_getero
+package neurogg
 
 type Excitation interface {
+	GetValue() interface{}
 }

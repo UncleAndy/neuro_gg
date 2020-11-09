@@ -1,8 +1,9 @@
-package neuro_getero
+package neurogg
 
 /*
 	Объединяет все интерфейсы в единую сеть
 */
 type Conductor interface {
-	Process()
+	Train()
+	Predict()
 }

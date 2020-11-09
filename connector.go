@@ -1,4 +1,4 @@
-package neuro_getero
+package neurogg
 
 // Передает полученное возбуждение после обработки цели типа Excitable
 type Connector interface {
@@ -10,7 +10,6 @@ type Connector interface {
 // Пучок коннекторов для передачи полученного возбуждения группе целей
 type ConnectorCluster interface {
 	Append(c Connector)
-	Remove(c Connector)
 
 	ProcessExcitation(e Excitation)
 }

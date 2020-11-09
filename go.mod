@@ -1,3 +1,3 @@
-module github.com/UncleAndy/neuro_gg
+module github.com/UncleAndy/neurogg
 
 go 1.13
